@@ -1,0 +1,15 @@
+{
+  "name": "javascript-techdegree-project-06",
+  "version": "1.0.0",
+  "description": "Treehouse Full-Stack JavaScript Techdegree Project 6",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joey Bruijns",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
