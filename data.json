@@ -1,12 +1,20 @@
 {
     "projects": [
         {
-            "id": "",
-            "project_name": "",
-            "technologies": "",
-            "live_link": "",
-            "github_link": "",
-            "image_urls": ""
+            "id": "1",
+            "project_name": "1",
+            "technologies": "1",
+            "live_link": "1",
+            "github_link": "1",
+            "image_urls": "1"
+        },
+        {
+            "id": "2",
+            "project_name": "2",
+            "technologies": "2",
+            "live_link": "2",
+            "github_link": "2",
+            "image_urls": "2"
         }
     ]
 }
