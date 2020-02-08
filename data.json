@@ -1,43 +1,43 @@
 {
     "projects": [
         {
-            "id": "1",
-            "project_name": "1",
-            "technologies": "1",
+            "id": "0",
+            "project_name": "Random Quote Generator in JavaScript",
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "1",
-            "github_link": "1",
+            "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-01",
             "image_urls": "1"
         },
         {
-            "id": "2",
-            "project_name": "2",
-            "technologies": "2",
+            "id": "1",
+            "project_name": "List Pagination and Filtering",
+            "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "2",
-            "github_link": "2",
+            "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-02",
             "image_urls": "2"
         },
         {
-            "id": "3",
-            "project_name": "3",
-            "technologies": "3",
+            "id": "2",
+            "project_name": "Interactive Form",
+            "technologies": ["JavaScript", "JQuery", "HTML", "CSS"],
             "live_link": "3",
-            "github_link": "3",
+            "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-03",
             "image_urls": "3"
         },
         {
-            "id": "4",
-            "project_name": "4",
-            "technologies": "4",
-            "live_link": "4",
-            "github_link": "4",
+            "id": "3",
+            "project_name": "Phrase Hunter - JavaScript OOP Game",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-04/",
+            "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-04",
             "image_urls": "4"
         },
         {
-            "id": "5",
-            "project_name": "5",
-            "technologies": "5",
+            "id": "4",
+            "project_name": "Public API Requests",
+            "technologies": ["JavaScript", "JSON", "API", "HTML", "CSS"],
             "live_link": "5",
-            "github_link": "5",
+            "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-05",
             "image_urls": "5"
         }
     ]
