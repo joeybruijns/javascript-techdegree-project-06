@@ -17,20 +17,19 @@ router.get('/about', (req, res) => {
 // project routes
 router.get('/project/:id', (req, res) => {
     console.log('project'); // DELETE
+
+    const {id} = req.params;
     
-    // const name = data[id].project_name;
-    // const description;
-    // const technologies;
-    // const liveDemo;
-    // const githubLink;
-    // const images;
+    const name = allProjects[id].project_name;
+    const description = allProjects[id].description;
+    const technologies = allProjects[id].technologies;
+    const liveDemo = allProjects[id].live_link;
+    const githubLink = allProjects[id].github_link;
+    const images = allProjects[id].image_urls;
 
-    //const projectData = {name};
-    // const projectData = {name, description, technologies, 
-    //                     liveDemo, githubLink, images};
+    const projectData = {name, description, technologies, liveDemo, githubLink, images};
 
-    //res.render('project', projectData);
-    res.render('project');
+    res.render('project', projectData);
 });
 
 module.exports = router;
