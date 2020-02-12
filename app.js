@@ -1,6 +1,5 @@
 const express = require('express');
-
-const {projectData} = require('../data.json');
+const indexRouter = require('./routes/index');
 
 // express() returns an Express application
 const app = express();
@@ -11,36 +10,7 @@ app.use('/static', express.static('public'));
 // use Pug as the view engine
 app.set('view engine', 'pug');
 
-// homepage route
-app.get('/', (req, res) => {
-    console.log('home'); // DELETE
-    res.render('index', {projectData});
-});
-
-// about page route
-app.get('/about', (req, res) => {
-    console.log('about'); // DELETE
-    res.render('about');
-});
-
-// project routes
-app.get('/project/:id', (req, res) => {
-    console.log('project'); // DELETE
-    
-    // const name = data[id].project_name;
-    // const description;
-    // const technologies;
-    // const liveDemo;
-    // const githubLink;
-    // const images;
-
-    //const projectData = {name};
-    // const projectData = {name, description, technologies, 
-    //                     liveDemo, githubLink, images};
-
-    //res.render('project', projectData);
-    res.render('project');
-});
+app.use('/', indexRouter);
 
 // Error Handling
 app.use((req, res, next) => {

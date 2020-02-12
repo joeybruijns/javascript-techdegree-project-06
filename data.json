@@ -2,12 +2,12 @@
     "projects": [
         {
             "id": "0",
-            "project_name": "Random Quote Generator in JavaScript",
+            "project_name": "Random Quote Generator",
             "description": "A simple random quote generator made with JavaScript. Automaticcaly displays some cool random quotes to the user!",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-01",
             "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-01",
-            "image_urls": "1"
+            "image_urls": ["../static/img/p4-main.png", "../static/img/p4-screen01.png", "../static/img/p4-screen02.png", "../static/img/p4-screen03.png"]
         },
         {
             "id": "1",
@@ -16,7 +16,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-02",
             "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-02",
-            "image_urls": "2"
+            "image_urls": ["../static/img/p4-main.png", "../static/img/p4-screen01.png", "../static/img/p4-screen02.png", "../static/img/p4-screen03.png"]
         },
         {
             "id": "2",
@@ -25,7 +25,7 @@
             "technologies": ["JavaScript", "JQuery", "HTML", "CSS"],
             "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-03",
             "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-03",
-            "image_urls": "3"
+            "image_urls": ["../static/img/p4-main.png", "../static/img/p4-screen01.png", "../static/img/p4-screen02.png", "../static/img/p4-screen03.png"]
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-04",
             "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-04",
-            "image_urls": ["../img/p4-main.png", "../img/p4-screen01.png", "../img/p4-screen02.png", "../img/p4-screen03.png"]
+            "image_urls": ["../static/img/p4-main.png", "../static/img/p4-screen01.png", "../static/img/p4-screen02.png", "../static/img/p4-screen03.png"]
         },
         {
             "id": "4",
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "JSON", "API", "HTML", "CSS"],
             "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-05",
             "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-05",
-            "image_urls": "5"
+            "image_urls": ["../static/img/p4-main.png", "../static/img/p4-screen01.png", "../static/img/p4-screen02.png", "../static/img/p4-screen03.png"]
         }
     ]
 }
