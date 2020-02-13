@@ -18,6 +18,7 @@ router.get('/about', (req, res) => {
 router.get('/project/:id', (req, res) => {
     const {id} = req.params;
     
+    // store all the info from the data.json file in separate variables
     const name = allProjects[id].project_name;
     const description = allProjects[id].description;
     const technologies = allProjects[id].technologies;
