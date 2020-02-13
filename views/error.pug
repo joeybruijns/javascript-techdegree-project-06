@@ -1,6 +1,7 @@
 extends layout.pug
 
 block content
-    h1= error.message
-    h3= `Status: ${error.status}`
-    a(href='/') < Go Back
+    div.error-message
+        h1= error.message
+        h3= `Status: ${error.status}`
+        a(href='/') ← Go Back

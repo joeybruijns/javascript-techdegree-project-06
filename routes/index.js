@@ -4,20 +4,18 @@ const router = express.Router();
 const projectData = require('../data.json');
 const allProjects = projectData.projects;
 
+// home route
 router.get('/', (req, res) => {
-    console.log('home'); // DELETE
     res.render('index', {allProjects});
 });
 
+// about route
 router.get('/about', (req, res) => {
-    console.log('about'); // DELETE
     res.render('about');
 });
 
-// project routes
+// project route
 router.get('/project/:id', (req, res) => {
-    console.log('project'); // DELETE
-
     const {id} = req.params;
     
     const name = allProjects[id].project_name;

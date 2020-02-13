@@ -10,6 +10,7 @@ app.use('/static', express.static('public'));
 // use Pug as the view engine
 app.set('view engine', 'pug');
 
+// use the routes from the routes directory
 app.use('/', indexRouter);
 
 // Error Handling

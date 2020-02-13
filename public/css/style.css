@@ -148,3 +148,15 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+.error-message h1,
+.error-message h3{
+  text-align: center;
+}
+
+.error-message a {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+}

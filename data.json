@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-01",
             "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-01",
-            "image_urls": ["../static/img/p4-main.png", "../static/img/p4-screen01.png", "../static/img/p4-screen02.png", "../static/img/p4-screen03.png"]
+            "image_urls": ["../static/img/p1-main.png", "../static/img/p1-screen01.png", "../static/img/p1-screen02.png", "../static/img/p1-screen03.png"]
         },
         {
             "id": "1",
@@ -16,7 +16,7 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-02",
             "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-02",
-            "image_urls": ["../static/img/p4-main.png", "../static/img/p4-screen01.png", "../static/img/p4-screen02.png", "../static/img/p4-screen03.png"]
+            "image_urls": ["../static/img/p2-main.png", "../static/img/p2-screen01.png", "../static/img/p2-screen02.png", "../static/img/p2-screen03.png"]
         },
         {
             "id": "2",
@@ -25,7 +25,7 @@
             "technologies": ["JavaScript", "JQuery", "HTML", "CSS"],
             "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-03",
             "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-03",
-            "image_urls": ["../static/img/p4-main.png", "../static/img/p4-screen01.png", "../static/img/p4-screen02.png", "../static/img/p4-screen03.png"]
+            "image_urls": ["../static/img/p3-main.png", "../static/img/p3-screen01.png", "../static/img/p3-screen02.png", "../static/img/p3-screen03.png"]
         },
         {
             "id": "3",
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "JSON", "API", "HTML", "CSS"],
             "live_link": "https://joeybruijns.github.io/javascript-techdegree-project-05",
             "github_link": "https://github.com/joeybruijns/javascript-techdegree-project-05",
-            "image_urls": ["../static/img/p4-main.png", "../static/img/p4-screen01.png", "../static/img/p4-screen02.png", "../static/img/p4-screen03.png"]
+            "image_urls": ["../static/img/p5-main.png", "../static/img/p5-screen01.png", "../static/img/p5-screen02.png", "../static/img/p5-screen03.png"]
         }
     ]
 }
